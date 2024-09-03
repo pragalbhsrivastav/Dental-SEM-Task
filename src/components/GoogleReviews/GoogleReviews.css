@@ -1,0 +1,153 @@
+.google-reviews {
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.header-wrapper {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.review-list {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0rem;
+  gap: 0rem;
+  box-sizing: border-box;
+}
+
+.review-item {
+  width: 100%;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px -8px 40px 0px rgba(0, 0, 0, 0.24);
+}
+
+.review-text {
+  color: #1b1c1e;
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 15px 0 0;
+  border-radius: 8px;
+  border: 1px #edeef1;
+  background: #f2f3f6;
+  padding: 10px;
+}
+
+.review-footer{
+  margin-top: 1rem;
+}
+
+.review-star{
+  margin-top: 10px;
+}
+
+@media (min-width: 1024px) and (max-width: 1399px) {
+  .review-list {
+    gap: 2rem;
+    padding: 2rem;
+  }
+  .review-item {
+    width: 44%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .review-list {
+    padding: 2rem;
+    gap: 4rem;
+  }
+  .review-item {
+    width: 45%;
+  }
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.review-info {
+  flex: 1;
+}
+
+.reviewer-name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.review-rating {
+  color: #f39c12;
+  margin: 5px 0;
+}
+
+.review-date {
+  color: #777;
+  font-size: 0.9em;
+}
+
+.review-text {
+  margin: 15px 0 0;
+}
+
+.loading {
+  text-align: center;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.reviews-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sort-reviews {
+  display: flex;
+  align-items: center;
+}
+
+.sort-label {
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+.sort-select {
+  padding: 6px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
