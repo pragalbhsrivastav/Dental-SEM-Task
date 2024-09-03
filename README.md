@@ -27,6 +27,8 @@ Launches the test runner in the interactive watch mode.\
 
 `Developed a React component that fetches and displays Google Reviews for a given place. The component includes sorting functionality, handles loading states, and displays an error message when necessary. This component leverages a custom hook, useGoogleReviews, to manage the API calls and state.`
 
+To Check the review of different place pass placeId as a props in GoogleReviews Component (i already pass the placeId of Big Tree Cafe Gurgaon) 
+
 ### Error Handling:
 
 `Created a custom ErrorSVG component to visually indicate errors, which is displayed within the GoogleReviews component if an error occurs while fetching reviews.`
